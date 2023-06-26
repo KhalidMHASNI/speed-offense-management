@@ -49,31 +49,31 @@
 | --- | --- | --- | --- |
 | ![image(11)](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/62d3923b-006d-45f0-982f-0deabedf0716)| ![image(12)](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/43ba853a-3544-4dad-8556-b01f572dc84c) | ![image(13)](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/fd18dd5b-de80-40c2-a205-c6edd2cb422a) | ![image(14)](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/c43de2c5-6456-4758-bbe1-e5a2b6192dc1) |
 
-### Testing the 4 web services
+### Tester les 4 web services
 
-#### Testing the REST web service using Postman
+#### Tester le REST web service avec Postman
 
-| List of all owners | Save new owner |
+| Liste des tous les propriétaires | Enregistrer un nouveau propriétaire |
 | --- | --- |
-| ![listofAllOwnersPostman](https://github.com/oumaimabenaboud/Speed-Infractions-Distributed-System/assets/120368654/871ef92b-c47f-4898-a869-de28b51d9fb8) | ![saveNewOwnerPostman](https://github.com/oumaimabenaboud/Speed-Infractions-Distributed-System/assets/120368654/36e78218-c46d-4171-b597-1b80553c8e06) |
+| ![image](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/e0d44ef4-507e-442f-b098-5e00c8e3aba4)| ![image](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/5339d496-49a4-4b3d-9609-908b96e803fd) |
 
-#### Testing the GraphQL web service using Graphiql
+#### Tester le GraphQL web service avec Graphiql
 
-| List of all owners | Save new owner |
+| Liste des tous les propriétaires | Enregistrer un nouveau propriétaire |
 | --- | --- |
-| ![GraphQLListofAllOwners](https://github.com/oumaimabenaboud/Speed-Infractions-Distributed-System/assets/120368654/7880e62f-5a5c-4be0-8453-1f30ab7cfc7f) | ![saveNewOwner](https://github.com/oumaimabenaboud/Speed-Infractions-Distributed-System/assets/120368654/cd46556d-6a70-490c-80c9-db140edd3442) |
+| ![image](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/0da66dd1-7625-4acf-8f94-dec36c0bac65) | ![image](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/5f326942-909f-4a05-a8c0-4ae46328077d) |
 
-#### Testing the SOAP web service using SOAPUI
+#### Tester le SOAP web service avec SOAPUI
 
-| List of all owners | Save new vehicle |
+| Affichage d'un prpriétaire avec son Id | Enregistrer une nouvelle vehicule |
 | --- | --- |
-| ![ListOfAllOwners](https://github.com/oumaimabenaboud/Speed-Infractions-Distributed-System/assets/120368654/42c56a8c-cfd9-424b-9998-67eb79d4b7e1) | ![saveNewVehicle](https://github.com/oumaimabenaboud/Speed-Infractions-Distributed-System/assets/120368654/96f2272e-b181-4d70-89c9-987632c918b4) |
+| ![image](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/77db3010-b189-4004-9b0a-a1f0f25877d5) | ![image](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/844540ea-e55f-4c41-b187-bd52eab307d6) |
 
-#### Testing the gRPC web service using BloomRPC
+#### Tester le gRPC web service avec BloomRPC
 
-| Update vehicle | Update Owner |
+| Mettre à jour d'une véhicule | Mettre à jour d'un propriétaire |
 | --- | --- |
-| ![updateVehicle](https://github.com/oumaimabenaboud/Speed-Infractions-Distributed-System/assets/120368654/8292a976-9761-4033-b974-5c87cdaa3e65) | ![updateowner](https://github.com/oumaimabenaboud/Speed-Infractions-Distributed-System/assets/120368654/6b0589e6-d3be-4c64-a367-28face6be544) |
+| ![image](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/71365f7f-0bf6-49d1-b80e-2a17036c691b) | ![image](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/2f981a20-795b-44df-b9a0-45558919f71a) |
 
 ## Infractions Microservice
 
