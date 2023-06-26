@@ -11,9 +11,7 @@
       Docker and Docker Compose for containerization and deployment
 
 
-Speed Infractions Distributed System is a microservices-based project aimed at managing and monitoring speed infractions. The system consists of multiple interconnected microservices that handle various tasks, including vehicle immatriculation, infraction recording, and radar monitoring.
-
-##  :bookmark_tabs: Table of Contents 
+##  :bookmark_tabs: Table de Contenu : 
 1. [Technical Architecture of the project](#technical-architecture-of-the-project)
 2. [Global class diagram of the project](#global-class-diagram-of-the-project)
 3. [Immatriculation Microservice](#immatriculation-microservice)
@@ -28,28 +26,28 @@ Speed Infractions Distributed System is a microservices-based project aimed at m
 9. [Securing the system](#securing-the-system)
 10. [Docker deployment](#docker-deployment)
 
-## Technical Architecture of the project
+## Architecture Technique du projet
 
 ![image(7)](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/f97d13f8-604c-4b09-979d-fa0a1b493be9)
 
-## Global class diagram of the project
+## Diagramme de classe global du projet
 
 ![image(8)](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/d92280a1-5615-4121-8058-1fc16d38ca0c)
 
 
 ## Immatriculation Microservice
 
-### JPA entities and JpaRepository interface
+### entitée JPA et interface JpaRepository :
 
-| JPA entities | JpaRepository interface |
+| JPA entitiée | interface JpaRepository|
 | --- | --- |
-| ![entitiesJPA](https://github.com/oumaimabenaboud/Speed-Infractions-Distributed-System/assets/120368654/0eb871cc-acd8-49f9-8127-fa7ada75dfc9) | ![JpaRepositories](https://github.com/oumaimabenaboud/Speed-Infractions-Distributed-System/assets/120368654/a95abee7-5719-4db9-9ae7-ebbe1eb77751) |
+| ![image(9)](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/76130f37-2106-4b6b-a20b-9b214cc8d023)| ![image(10)](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/d95aae9a-1ba9-4018-b2ce-408f37b68cb2) |
 
-### The 4 web services (REST, GraphQL, SOAP, and gRPC)
+### Les 4 web services (REST, GraphQL, SOAP, and gRPC)
 
 | REST | GraphQL | SOAP | gRPC |
 | --- | --- | --- | --- |
-| ![ImmatriculationRest](https://github.com/oumaimabenaboud/Speed-Infractions-Distributed-System/assets/120368654/4aba780a-68d0-4313-87bc-a4d3daab02a3) | ![immatriculationGraphQl](https://github.com/oumaimabenaboud/Speed-Infractions-Distributed-System/assets/120368654/a39023cd-df97-434a-9102-067170b8383f) | ![ImmatriculationSoap](https://github.com/oumaimabenaboud/Speed-Infractions-Distributed-System/assets/120368654/db178b91-b467-4edb-b43b-39be0e32d24d) | ![immatriculatioGrpc](https://github.com/oumaimabenaboud/Speed-Infractions-Distributed-System/assets/120368654/19e285e0-347b-47b8-b292-8da44cbdee47) |
+| ![image(11)](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/62d3923b-006d-45f0-982f-0deabedf0716)| ![image(12)](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/43ba853a-3544-4dad-8556-b01f572dc84c) | ![image(13)](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/fd18dd5b-de80-40c2-a205-c6edd2cb422a) | ![image(14)](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/c43de2c5-6456-4758-bbe1-e5a2b6192dc1) |
 
 ### Testing the 4 web services
 
