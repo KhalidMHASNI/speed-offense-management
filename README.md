@@ -79,7 +79,7 @@
 
 | Infractions Microservice | List of all infractions using Postman | Add new infraction using Postman |
 | --- | --- | --- |
-| ![microserviceInfraction](https://github.com/oumaimabenaboud/Speed-Infractions-Distributed-System/assets/120368654/325a4210-af61-4199-a98a-11cbf7f38b6e) | ![ListofAllInfractions](https://github.com/oumaimabenaboud/Speed-Infractions-Distributed-System/assets/120368654/a9c0e55c-cbeb-48b2-b176-8039afebc676) | ![addnewInfraction](https://github.com/oumaimabenaboud/Speed-Infractions-Distributed-System/assets/120368654/e1625366-af97-46f4-89ce-27fd60633672) |
+| ![image](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/0db1b01c-7c90-4e38-9978-3afbe196e8d6) | ![image](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/c0b81269-9b01-4d54-832a-bd2fbfc37f0c) | ![image](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/1cbfd629-b028-4dcd-b4ca-ff7715f6d0f5) |
 
 ## Radar Microservice
 
