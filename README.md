@@ -1,4 +1,4 @@
-# speed-offense-management
+![image](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/c3395099-a1e1-4634-b3fc-0b79882035f2)# speed-offense-management
 
 
     Description: A distributed system for managing and automating speed violation processes using microservices architecture.
@@ -85,27 +85,27 @@
 
 | List of all infractions including the vehicles that exceeded the speed limit and their respective owners |
 | --- |
-| ![microserviceRadar](https://github.com/oumaimabenaboud/Speed-Infractions-Distributed-System/assets/120368654/7e6bcd05-f244-465b-b772-e470a4069b60) |
+| ![image](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/2e32e3a2-4295-4288-a198-28b997f4c3cc) |
 
 ## JAVA client
 
-JAVA client that simulates a radar that randomly generates speeding infractions and sends them via GRPC to the Radar service.
+Client JAVA qui simule un radar générant aléatoirement des infractions à la vitesse et les envoyant via GRPC au service Radar.
 
-![ClientJavaGrpc](https://github.com/oumaimabenaboud/Speed-Infractions-Distributed-System/assets/120368654/217ba41e-5cb3-4c42-9cbf-29e86b466dc2)
+![Untitled](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/87349e83-f1e2-44d3-aa78-2bfec8a99324)
 
 ## Technical services
 
 The technical services of the microservice architecture (Gateway, Eureka Discovery service).
 
-![eureka](https://github.com/oumaimabenaboud/Speed-Infractions-Distributed-System/assets/120368654/03aa1160-a0b2-4587-9323-2d730043e44a)
+![image](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/3009cd2e-f6c9-4962-b7d7-897781c213ea)
 
 ## Front-end application
 
-Front-end application with Angular.
+Front-end application avec Angular.
 
-| List of Radars | Add new Radar | Infractions detected by the Radar | Infraction detail |
+| List des radars | Ajouter un nouveau Radar | Infractions detectées par le radar | détails de l'infraction |
 | --- | --- | --- | --- |
-| ![ListofRadars](https://github.com/oumaimabenaboud/Speed-Infractions-Distributed-System/assets/120368654/c4f64def-e555-4517-8894-e54085ba8fc8) | ![addNewRadar](https://github.com/oumaimabenaboud/Speed-Infractions-Distributed-System/assets/120368654/55a4660b-ec63-496a-a3bf-845b9753c4e7) | ![InfractionsdetectedofRadar](https://github.com/oumaimabenaboud/Speed-Infractions-Distributed-System/assets/120368654/292aaca3-9cc3-4ae8-9c99-ce50ee7c9bb3) | ![Infractiondetail](https://github.com/oumaimabenaboud/Speed-Infractions-Distributed-System/assets/120368654/24384bda-35ca-454c-a5c8-193195c10200) |
+|![image](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/b6655fa1-ba23-4bf0-8989-4c7de7860db2) | ![addNewRadar](https://github.com/oumaimabenaboud/Speed-Infractions-Distributed-System/assets/120368654/55a4660b-ec63-496a-a3bf-845b9753c4e7) | ![InfractionsdetectedofRadar](https://github.com/oumaimabenaboud/Speed-Infractions-Distributed-System/assets/120368654/292aaca3-9cc3-4ae8-9c99-ce50ee7c9bb3) | ![Infractiondetail](https://github.com/oumaimabenaboud/Speed-Infractions-Distributed-System/assets/120368654/24384bda-35ca-454c-a5c8-193195c10200) |
 
 | List of Infractions | Add new Infraction | Infraction detail | Delete Infraction |
 | --- | --- | --- | --- |
