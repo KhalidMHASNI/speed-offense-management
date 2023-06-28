@@ -1,4 +1,4 @@
-![image](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/c3395099-a1e1-4634-b3fc-0b79882035f2)# speed-offense-management
+# speed-offense-management
 
 
     Description: A distributed system for managing and automating speed violation processes using microservices architecture.
@@ -9,22 +9,6 @@
       Angular for frontend development
       Kycloak for authentication and authorization
       Docker and Docker Compose for containerization and deployment
-
-
-##  :bookmark_tabs: Table de Contenu : 
-1. [Technical Architecture of the project](#technical-architecture-of-the-project)
-2. [Global class diagram of the project](#global-class-diagram-of-the-project)
-3. [Immatriculation Microservice](#immatriculation-microservice)
-    - JPA entities and JpaRepository interface based on Spring data
-    - The 4 web services (REST, GraphQL, SOAP, and gRPC)
-    - Testing the 4 web services
-4. [Infractions Microservice](#infractions-microservice)
-5. [Radar Microservice](#radar-microservice)
-6. [JAVA client](#java-client)
-7. [Technical services](#technical-services)
-8. [Front-end application](#front-end-application)
-9. [Securing the system](#securing-the-system)
-10. [Docker deployment](#docker-deployment)
 
 ## Architecture Technique du projet
 
