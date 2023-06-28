@@ -87,18 +87,6 @@ The technical services of the microservice architecture (Gateway, Eureka Discove
 
 Front-end application avec Angular.
 
-| List des radars | Ajouter un nouveau Radar | Infractions detectées par le radar | détails de l'infraction |
-| --- | --- | --- | --- |
-|![image](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/b6655fa1-ba23-4bf0-8989-4c7de7860db2) | ![addNewRadar](https://github.com/oumaimabenaboud/Speed-Infractions-Distributed-System/assets/120368654/55a4660b-ec63-496a-a3bf-845b9753c4e7) | ![InfractionsdetectedofRadar](https://github.com/oumaimabenaboud/Speed-Infractions-Distributed-System/assets/120368654/292aaca3-9cc3-4ae8-9c99-ce50ee7c9bb3) | ![Infractiondetail](https://github.com/oumaimabenaboud/Speed-Infractions-Distributed-System/assets/120368654/24384bda-35ca-454c-a5c8-193195c10200) |
-
-| List of Infractions | Add new Infraction | Infraction detail | Delete Infraction |
-| --- | --- | --- | --- |
-| ![listofInfractions](https://github.com/oumaimabenaboud/Speed-Infractions-Distributed-System/assets/120368654/11db2002-60bb-488f-8c33-3e40137a12bb) | ![addNewInfractionAngular](https://github.com/oumaimabenaboud/Speed-Infractions-Distributed-System/assets/120368654/25609132-7331-4e93-907d-48c53f7b0e3b) | ![DetailsInfraction](https://github.com/oumaimabenaboud/Speed-Infractions-Distributed-System/assets/120368654/6204e786-eb05-48ce-9c7a-24773edd3871) | ![image](https://github.com/oumaimabenaboud/Speed-Infractions-Distributed-System/assets/120368654/d3d21335-4615-43c9-b801-202d86c5d704)
-
-
-| List of Vehicles | Add new Vehicle | Vehicle's owner detail |
-| --- | --- | --- |
-| ![listOfVehicles](https://github.com/oumaimabenaboud/Speed-Infractions-Distributed-System/assets/120368654/e3bafea3-f226-444b-a19b-95f4ab6be27a) | ![AddNewVehicle](https://github.com/oumaimabenaboud/Speed-Infractions-Distributed-System/assets/120368654/9fb8adca-6d9d-408b-9837-5b1bbea2c657) | ![VehiclesOwner](https://github.com/oumaimabenaboud/Speed-Infractions-Distributed-System/assets/120368654/83fca0b2-ba7d-4343-8c84-1c88d3b45815) |
 
 ## Securing the system
 
