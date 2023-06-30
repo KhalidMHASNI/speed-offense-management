@@ -11,6 +11,7 @@ import { VehicledetailComponent } from './vehicledetail/vehicledetail.component'
 import { RadarComponent } from './radar/radar.component';
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import { RadardetailComponent } from './radardetail/radardetail.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { RadardetailComponent } from './radardetail/radardetail.component';
     InfractiondetailComponent,
     VehicledetailComponent,
     RadarComponent,
-    RadardetailComponent
+    RadardetailComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

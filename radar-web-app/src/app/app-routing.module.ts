@@ -7,8 +7,14 @@ import {VehicledetailComponent} from "./vehicledetail/vehicledetail.component";
 import {RadarComponent} from "./radar/radar.component";
 import {RadardetailComponent} from "./radardetail/radardetail.component";
 
+import {HomeComponent} from "./home/home.component";
+
+
 const routes: Routes = [
-{
+  {
+    path : "home",component:HomeComponent
+    },
+    {
   path : "vehicles",component:VehiclesComponent
   },
   {
