@@ -17,14 +17,17 @@ function initializeKeycloak(keycloak: KeycloakService) {
   return () =>
     keycloak.init({
       config: {
-        url: 'http://localhost:8080/auth',
+        url: 'http://localhost:8765',
         realm: 'radarmax-realm',
         clientId: 'radarmax-client',
       },
       initOptions: {
         onLoad: 'login-required',
         flow: 'standard',
+        checkLoginIframe : true,
+        checkLoginIframeInterval: 25
       },
+      loadUserProfileAtStartUp : true
     });
 }
 

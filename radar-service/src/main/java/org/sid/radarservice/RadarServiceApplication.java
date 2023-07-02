@@ -23,20 +23,6 @@ public class RadarServiceApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(RadarServiceApplication.class, args);
 	}
-	/*@Bean
-	CommandLineRunner start(RadarRepository radarRepository, ImmatriculationRestClient immatriculationRestClient, InfractionRestClient infractionRestClient){
-		return args -> {
-
-			for(int i = 0; i < 10; i++) {
-				Radar radar = new Radar();
-				radar.setRadar_maxSpeed(110.0 + i);
-				radar.setLatitude(10.0 + i);
-				radar.setLongitude(20.0 + i);
-				radarRepository.save(radar);
-				System.out.println(radar);
-			}
-			};
-		}*/
 
 		@Bean
 	CommandLineRunner start(RadarRepository radarRepository, ImmatriculationRestClient immatriculationRestClient, InfractionRestClient infractionRestClient){

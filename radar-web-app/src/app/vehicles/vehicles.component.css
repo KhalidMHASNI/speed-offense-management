@@ -29,14 +29,17 @@
   border-color: #ED3237;
 }
 .detail-button {
-  color: #FF6445;
-  border-color: #FF6445;
+  color: #ED3237;
+  border-color: #ED3237;
 }
 .detail-button:hover {
-  background-color: #FF6445;
-  border-color: #FF6445;
+  background-color: #ED3237;
+  border-color: #ED3237;
   color: #ffffff;
 }
 .justify-content-start{
-  color: #FF6445;
+  color: #ED3237;
+}
+.container{
+  margin-left: 12%;
 }

@@ -1,29 +1,29 @@
  <body>
     <div class="container"*ngIf="infractiondetail">
       <br>
-      <h4 class="label custom-label"><i class="bi bi-clipboard2-x-fill"></i> Details of infraction n°{{infractiondetail.id}}</h4>
+      <h4 class="label custom-label"><i class="bi bi-clipboard2-x-fill"></i> Détails de l'infraction n°{{infractiondetail.id}}</h4>
       <br>
       <div class="row">
         <div class="col">
           <div class="list-group">
             <div class="list-group-item">
-              <label class="list-group-item-label bold-label">Infraction Date:</label>
+              <label class="list-group-item-label bold-label">Date de l'infraction :</label>
               <div class="list-group-item-value">{{infractiondetail.date}}</div>
             </div>
             <div class="list-group-item">
-              <label class="list-group-item-label bold-label">Vehicle's Speed:</label>
+              <label class="list-group-item-label bold-label">Vitesse du véhicule :</label>
               <div class="list-group-item-value">{{infractiondetail.vehicle_speed | number:'1.0-0'}} Km/h</div>
             </div>
             <div class="list-group-item">
-              <label class="list-group-item-label bold-label">Registration Plate Number:</label>
+              <label class="list-group-item-label bold-label">Numéro de la plaque d'immatriculation :</label>
               <div class="list-group-item-value">{{infractiondetail.vehicle.registration_plate_number}}</div>
             </div>
             <div class="list-group-item">
-              <label class="list-group-item-label bold-label">Tax Horsepower:</label>
+              <label class="list-group-item-label bold-label">Taxe sur la puissance des chevaux :</label>
               <div class="list-group-item-value">{{infractiondetail.vehicle.tax_horsepower}}</div>
             </div>
             <div class="list-group-item">
-              <label class="list-group-item-label bold-label">Owner's Name:</label>
+              <label class="list-group-item-label bold-label">Nom du propriétaire:</label>
               <div class="list-group-item-value">{{infractiondetail.vehicle.owner.name}}</div>
             </div>
           </div>
@@ -31,27 +31,27 @@
         <div class="col">
           <div class="list-group">
             <div class="list-group-item">
-              <label class="list-group-item-label bold-label">Fine Amount:</label>
+              <label class="list-group-item-label bold-label">Montant de l'amende :</label>
               <div class="list-group-item-value">{{infractiondetail.fine_amount | number:'1.0-0'}} Dhs</div>
             </div>
             <div class="list-group-item">
-              <label class="list-group-item-label bold-label">Radar's Maximum Speed:</label>
+              <label class="list-group-item-label bold-label">Vitesse maximale du radar :</label>
               <div class="list-group-item-value">{{infractiondetail.radar_maxSpeed | number:'1.0-0'}} Km/h</div>
             </div>
             <div class="list-group-item">
-              <label class="list-group-item-label bold-label">Brand:</label>
+              <label class="list-group-item-label bold-label">Marque :</label>
               <div class="list-group-item-value">{{infractiondetail.vehicle.brand}}</div>
             </div>
             <div class="list-group-item">
-              <label class="list-group-item-label bold-label">Vehicle Model:</label>
+              <label class="list-group-item-label bold-label">Modèle de véhicule:</label>
               <div class="list-group-item-value">{{infractiondetail.vehicle.vehicle_model}}</div>
             </div>
             <div class="list-group-item">
-              <label class="list-group-item-label bold-label">Owner's Birthdate:</label>
+              <label class="list-group-item-label bold-label">Date de naissanece du propriétaire :</label>
               <div class="list-group-item-value">{{infractiondetail.vehicle.owner.birthDate}}</div>
             </div>
             <div class="list-group-item">
-              <label class="list-group-item-label bold-label">Owner's Email:</label>
+              <label class="list-group-item-label bold-label">Email du propriétaire:</label>
               <div class="list-group-item-value">{{infractiondetail.vehicle.owner.email}}</div>
             </div>
           </div>

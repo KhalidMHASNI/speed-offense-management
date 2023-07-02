@@ -12,13 +12,15 @@ body {
 
     h1 {
       text-align: center;
-      color: #333;
+      color: #000000;
+      margin-top: 20px;
     }
 
     .profile {
       display: flex;
       align-items: center;
       margin-bottom: 20px;
+      margin-top: 80px;
     }
 
     .profile img {
@@ -49,7 +51,7 @@ body {
     }
 
     #infoCard{
-    margin-top:100px;
+    margin-top:70px;
     width:110%;
     }
 
@@ -59,4 +61,60 @@ body {
     #infoCard li{
             text-align:left;
         }
+
+
+@import url(https://fonts.googleapis.com/css?family=Oswald:400);
+
+.navigation {
+  width: 100%;
+  background-color: black;
+}
+
+img {
+  width: 25px;
+  border-radius: 50px;
+  float: left;
+}
+
+.logout {
+  font-size: .8em;
+  font-family: 'Oswald', sans-serif;
+	position: relative;
+  right: -18px;
+  bottom: -4px;
+  overflow: hidden;
+  letter-spacing: 3px;
+  opacity: 0;
+  transition: opacity .45s;
+  -webkit-transition: opacity .35s;
+  
+}
+
+.button {
+	text-decoration: none;
+	float: right;
+  padding: 12px;
+  padding-right: 15px;
+  margin: 15px;
+  color: black;
+  width: 45px;
+  background-color: white;
+  border-color: black;
+  transition: width .35s;
+  -webkit-transition: width .35s;
+  overflow: hidden
+}
+
+a:hover {
+  width: 170px;
+  cursor: pointer;
+}
+
+a:hover .logout{
+  opacity: .9;
+}
+
+a {
+  text-decoration: none;
+}
 

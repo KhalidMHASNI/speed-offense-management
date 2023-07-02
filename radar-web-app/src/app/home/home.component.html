@@ -4,34 +4,35 @@
   <title>User Profile</title>
 </head>
 <body>
-<div class="container">
-  <h1>Welcome, <span id="username"></span>!</h1>
+  <div class="navigation">
+    <a class="button" (click)="logout()">
+      <img src="/../assets/logout.png">
+    <div class="logout">Se déconnecter</div>
+    </a>
+  </div>
 
-  <!-- <button (click)="logout()">Logout</button> -->
+<div class="container">
+  <h1>Bonjour , <span id="username" style="text-transform: uppercase; color: #ee0606;">{{ username }}</span> !</h1>
+
+  <!-- <button (click)="logout()" class="logoutBtn">Logout</button> -->
+  
+
 
 
   <div class="profile">
     <img id="profile-image" src="/../assets/radarmax.png" alt="Profile Image">
     <div class="info">
-      <p>Nom: &nbsp;<span id="name">Khldoun</span></p>
-      <p>Email: &nbsp;<span id="email">Khaldoun@gmail.com</span></p>
-      <p>Date de naissance: &nbsp;<span id="datebirth">Tue Jun 27</span></p>
+      <p>Nom Complet : &nbsp;<span id="name">{{ fullname }}</span></p>
+      <p>Email: &nbsp;<span id="email">{{ email }}</span></p>
+      <!-- <p>Date de naissance: &nbsp;<span id="datebirth">Tue Jun 27</span></p> -->
     </div>
   </div>
 
   <div id="infoCard" class="card app-info">
     <div class="card-body text-center">
-        <h2><span style="color:#ee0606;">RadarMAX</span> - L'application ultime pour le contrôle de vitesse</h2>
-      <p>RadarMax est une application innovante conçue pour améliorer la sécurité routière en surveillant les dépassements de vitesse des véhicules. Grâce à notre technologie de pointe, RadarMax fournit des fonctionnalités avancées pour détecter et enregistrer les infractions liées à la vitesse.</p>
-      <p>Les principales fonctionnalités de RadarMax incluent :</p>
-      <ul>
-        <li>Surveillance précise des vitesses des véhicules en temps réel</li>
-        <li>Intégration avec des radars haute performance pour une détection précise</li>
-        <li>Communication transparente avec les services d'immatriculation pour obtenir les informations des propriétaires de véhicules</li>
-        <li>Génération automatique d'infractions et de rapports détaillés</li>
-        <li>Interface conviviale et facile à utiliser pour les utilisateurs</li>
-      </ul>
-      <p>Que vous soyez un organisme chargé de faire respecter les règles de la circulation, un gestionnaire de flotte ou tout simplement un conducteur soucieux de la sécurité, RadarMax est l'application idéale pour vous aider à maintenir des routes plus sûres.</p>
+        <h2><span style="color:#ee0606;">RadarMAX</span> - L'application ultime de gestion des infractions routières</h2>
+        <br>
+      <p>Bienvenue sur RadarMax, une application de gestion des infractions routières. RadarMax vous aide à surveiller et à gérer efficacement les dépassements de vitesse et les infractions liées à la conduite. Grâce à une architecture microservices robuste, RadarMax offre une solution complète de gestion des infractions routières. Notre application détecte les dépassements de vitesse, gère les propriétaires de véhicules, génère des infractions et s'intègre avec d'autres microservices externes. Avec une interface utilisateur conviviale, RadarMax simplifie la gestion des infractions et contribue à des routes plus sûres pour tous. Rejoignez-nous dès maintenant et découvrez comment RadarMax peut optimiser la gestion des infractions routières.</p>
     </div>
   </div>
 

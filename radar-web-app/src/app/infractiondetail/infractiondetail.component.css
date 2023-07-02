@@ -1,6 +1,9 @@
 .custom-label {
-  color: #FF6445;
+  color: #ED3237;
 }
 .bold-label {
   font-weight: bold;
+}
+.container{
+  margin-left: 12%;
 }

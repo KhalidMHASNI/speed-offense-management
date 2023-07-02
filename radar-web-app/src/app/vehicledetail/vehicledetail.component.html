@@ -1,21 +1,21 @@
 <body>
 <div class="container"*ngIf="vehicledetail">
   <br>
-  <h4 class="label custom-label"><i class="bi bi-person-fill"></i> Owner Details of vehicle n°{{vehicleId}}</h4>
+  <h4 class="label custom-label"><i class="bi bi-person-fill"></i> Propriétaire Détails du véhicule n°{{vehicleId}}</h4>
   <br>
   <div class="row">
     <div class="col">
       <div class="list-group">
         <div class="list-group-item">
-          <label class="list-group-item-label bold-label">Owner's name:</label>
+          <label class="list-group-item-label bold-label">Nom du propriétaire :</label>
           <div class="list-group-item-value">{{vehicledetail.name}}</div>
         </div>
         <div class="list-group-item">
-          <label class="list-group-item-label bold-label">Owner's birthdate:</label>
+          <label class="list-group-item-label bold-label">Date de naissanece du propriétaire :</label>
           <div class="list-group-item-value">{{vehicledetail.birthDate }} </div>
         </div>
         <div class="list-group-item">
-          <label class="list-group-item-label bold-label">Owner's email:</label>
+          <label class="list-group-item-label bold-label">Email du propriétaire :</label>
           <div class="list-group-item-value">{{vehicledetail.email}}</div>
         </div>
       </div>
