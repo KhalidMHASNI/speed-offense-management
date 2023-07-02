@@ -88,20 +88,20 @@ The technical services of the microservice architecture (Gateway, Eureka Discove
 Front-end application avec Angular.
 | Page Profile de l'utilisateur |
 | --- |
-| ![image](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/d83cf8e0-0134-49c1-9e1c-19c508d68155) |
+| ![image](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/3a59725f-3c0f-48a3-b2b6-82ce83e7b712) |
 
 | Liste des radars | Ajouter un nouveau Radar | Infractions detectées par le radar | détails de l'infraction | 
 | --- | --- | --- | --- |
-|![image](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/008336a1-5c29-4747-99c3-6a552519c623)|  ![image](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/09887c90-02b7-4374-a1ac-7fdf0a4cbb57) ![image](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/18784068-70ec-4f0e-beb3-6d92ab4ce4ee)| ![image](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/6ffb4926-2937-498d-a910-09349294813d) | ![image](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/e4ec9101-3fdc-4cb2-9839-10e548bf12df) |
+| ![image](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/f5727b88-208f-4b70-97af-43c90717c3d2) | ![image](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/2432a8a6-c1a8-4721-b783-afa30513204b) ![image](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/e4c01cff-4b81-42f9-a0fc-e9fd646faf26) | ![image](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/d0a0536d-03d1-4aef-9ab4-74a638164621) | ![image](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/c8d0f089-f0e4-4f99-8872-46b3e4aa1785) |
 
 | Liste des Infractions | ajouter une nouvelle Infraction | Détails de l'infraction | Supprimer une infraction |
 | --- | --- | --- | --- |
-|  ![image](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/c5016b39-3ffa-4d54-821e-6767d117dc9c) |  ![image](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/5ed6e3e3-6089-4311-a501-2f485744711d) ![image](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/d5220c24-7dc7-434b-9062-bff517156f57) | ![image](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/b606b12d-92fc-4e86-a199-bf1ba34e75d1) | ![image](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/4524a5d4-4a33-4b66-a09c-4ba10706aa6c) |
+|  ![image](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/0b1b82ef-0f3b-40e0-934b-bd0b235862bc) |  ![image](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/c846cfdd-5e17-4d48-96db-aa396f80acbb) ![image](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/434fbecf-3c5d-4a3b-94c0-e446492d8e3f) | ![image](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/e43feca9-45af-4400-a589-aa26ed833efa) | ![image](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/6e650c1d-9e9d-4550-8989-2006cf07f63f) |
 
 
 | Liste des Vehicules | Ajouter Vehicule | Détails du propriétaire de la véhicule |
 | --- | --- | --- |
-|  ![image](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/eab9b466-fa3d-4c71-9e85-7d03e2f32f40) |  ![image](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/58974ad3-862b-4bc0-ad15-c46b8367e0c8)![image](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/f1579972-59e3-4ec6-98ab-6d25b757c3d0) | ![image](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/1dcaaa77-821a-4a36-952e-43fef26323b7) |
+| ![image](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/bc091ebd-5338-49d5-b49f-d1714021d3c6) | ![image](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/887661b2-2bfe-430d-a08d-310d65404e32) ![image](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/91edcd80-af67-4dd3-bf74-df1198403b56)| ![image](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/3380739f-e82f-4177-9f20-c5e958af8e36) |
 
 ## Securing the system
 
