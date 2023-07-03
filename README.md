@@ -113,5 +113,7 @@ Securing the system with the Keycloak authentication system.
 
 ## Docker deployment
 
-The `docker-compose.yml` script to deploy the distributed system in Docker containers.
+Le script `docker-compose.yml` pour déployer le système distribué dans des conteneurs Docker.
+![image](https://github.com/KhalidMHASNI/speed-offense-management/assets/82038554/1a7d367f-5093-42f2-807a-ec6e74a83ba6)
+
 
