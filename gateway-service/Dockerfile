@@ -1,9 +1,19 @@
-FROM openjdk:20-jdk
+FROM maven:3.8.3-openjdk-20 as builder
 
 WORKDIR /app
 
-COPY target/gateway-service.jar .
+COPY ./pom.xml ./pom.xml
 
-EXPOSE 8888
+RUN mvn dependency:go-offline -B
 
-CMD ["java", "-jar", "gateway-service.jar"]
+COPY ./src ./src
+
+RUN mvn clean package
+
+FROM openjdk:20-jdk-alpine
+
+WORKDIR /app
+
+COPY --from=builder /app/target/*.jar ./service.jar
+
+CMD ["java", "-jar", "./service.jar"]

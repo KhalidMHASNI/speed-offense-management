@@ -1,5 +1,19 @@
-FROM openjdk:20-jdk
+FROM maven:3.8.3-openjdk-20 as builder
+
 WORKDIR /app
-COPY target/eureka-discovery.jar .
-EXPOSE 8761
-CMD ["java", "-jar", "eureka-discovery.jar"]
+
+COPY ./pom.xml ./pom.xml
+
+RUN mvn dependency:go-offline -B
+
+COPY ./src ./src
+
+RUN mvn clean package
+
+FROM openjdk:20-jdk-alpine
+
+WORKDIR /app
+
+COPY --from=builder /app/target/*.jar ./service.jar
+
+CMD ["java", "-jar", "./service.jar"]
